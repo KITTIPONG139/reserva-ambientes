@@ -13,6 +13,7 @@
 Por favor tomar en cuenta la fecha y horario para no crear ningún contratiempo.</h3>
     <p><b>DÍA:</b> {{ date("d-m-Y", strtotime($reserva->fecha)) }} <br>
     <b>HORAS:</b> {{$reserva->hora_inicio}} a {{$reserva->hora_fin}} <br>
+    <b>HORAS:</b> {{$reserva->hora_inicio}} a {{$reserva->hora_fin}} <br>
     <b>Usuario:</b> {{$reserva->user->name}} <br>
     </p>
     </div>
